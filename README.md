@@ -3,7 +3,7 @@ This is a solution to the [Notification Page challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Click here](https://github.com/NehalSahu8055/Responsive-Notification-Page)
-- Live Site URL: [Click here](https://nehalsahu8055.github.io/Responsive-Notification-Page/)
+- Live Site URL: [Click here](https://notification-page-nehal.netlify.app/)
 
 ## My process
 
