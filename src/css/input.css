@@ -46,25 +46,27 @@
   @apply shadow-[0px_0px_3px_0px_var(--shadowActive)];
 }
 .status-on {
-  @apply border-2 border-green-500 rounded-full;
+  @apply rounded-full border-2 border-green-500;
 }
 
 /* ---------------- Relative Fonts -----------------*/
 /* Normal */
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf)
-    format("truetype");
   font-weight: 500;
+  src:
+    local("Plus Jakarta Sans"),
+    url(/assets/fonts/static/PlusJakartaSans-Medium.ttf) format("truetype");
   font-display: swap;
 }
 
 /* Bold */
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf)
-    format("truetype");
   font-weight: 800;
+  src:
+    local("Plus Jakarta Sans"),
+    url(/assets/fonts/static/PlusJakartaSans-ExtraBold.ttf) format("truetype");
   font-display: swap;
 }
 
