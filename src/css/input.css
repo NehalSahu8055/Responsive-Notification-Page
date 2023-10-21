@@ -10,8 +10,8 @@
   --veryLightGrayishBlue: hsl(210, 60%, 98%);
   --lightGrayishBlue1: hsl(211, 68%, 94%);
   --lightGrayishBlue2: hsl(205, 33%, 90%);
-  --grayishBlue: hsl(218, 14%, 63%);
-  --darkGrayishBlue: hsl(219, 12%, 42%);
+  --grayishBlue: #6a717e;
+  --darkGrayishBlue: #67707e;
   --veryDarkBlue: hsl(224, 21%, 14%);
   --shadowActive: hsla(0, 0%, 0%, 0.102);
   --shadowMainCard: hsl(0deg 0% 0% / 6%);
@@ -46,7 +46,7 @@
   @apply shadow-[0px_0px_3px_0px_var(--shadowActive)];
 }
 .status-on {
-  @apply rounded-full border-2 border-green-500;
+  @apply border-2 border-green-500 rounded-full;
 }
 
 /* ---------------- Relative Fonts -----------------*/

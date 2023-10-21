@@ -9,6 +9,7 @@
     ]
   },
   "scripts": {
+    "dev": "vite",
     "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
     "minify-css": "minify ./src/css/output.css > ./src/css/output.min.css",
     "minify-js": "terser ./src/js/script.js -o ./src/js/script.min.js"
