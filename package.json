@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
   "scripts": {
     "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
     "minify-css": "minify ./src/css/output.css > ./src/css/output.min.css",

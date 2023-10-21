@@ -9,10 +9,6 @@ This is a solution to the [Notification Page challenge on Frontend Mentor](https
 
 ### Built with
 
-- Semantic HTML5 markup
-- Tailwind CSS
-- Vanilla JS
-
 ### General Features
 
 - 🫧 CSS Animations
